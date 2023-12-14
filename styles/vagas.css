@@ -1,0 +1,53 @@
+.vagas{
+    margin: 8em 5em 0;
+}
+
+.vagas__titulo{
+    font-size: 14px;
+}
+
+.extra{margin: 0;}
+
+.extra-titulo{
+    font-size: 36px;
+}
+
+.vagas__imagem{
+    margin: 5em;
+}
+
+.vagas__abertas{
+    display: flex;
+    flex-direction: column;
+    margin: 0 15em;
+}
+
+.vagas__area{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 1em 0;
+}
+
+.container__vagas{
+    border: 1px solid var(--cinzaClaro);
+    margin: 1em;
+    padding: .5em;
+    border-radius: 10px;
+}
+
+.vagas__especifica{
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1em .5em .5em .5em;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.vagas__definicao{
+    font-weight: 500;
+    color: var(--cinza);
+    padding: 1em 0.5em;
+}

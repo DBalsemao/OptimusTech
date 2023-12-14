@@ -1,0 +1,54 @@
+
+
+.container__texto-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 18em;
+}
+
+.container__sobre{
+    padding-bottom: 2em;
+    color: var(--vermelhoEscuro);
+    font-weight: 600;
+}
+
+.container__titulo{
+    padding-bottom: .5em;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.container__titulo-texto{
+    color: var(--cinza);
+    font-size: 20px;
+    text-align: center;
+}
+
+.container__lista{
+    display: flex;
+    margin: 2em 6em;
+}
+
+.lista__informacao{
+    width: 25%;
+    padding: 1.5em;
+}
+.informacao__numero{
+    color: var(--vermelhoEscuro);
+    font-weight: 600;
+    font-size: 60px;
+    padding-bottom: 0.3em;
+}
+
+.informacao__titulo{
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: .6em;
+
+}
+
+.informacao__texto{
+    font-size: 16px;
+    color: var(--cinza);
+}

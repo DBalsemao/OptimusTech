@@ -1,0 +1,59 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 4em;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logoTexto{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: .5em;
+}
+
+.logoImagem{
+    width: 27px;
+    height: 27px;
+}
+
+.navegacao{
+    display: flex;
+    padding-right: 20em;
+}
+
+.navegacao__pagina{
+    margin: 1em 1em;
+    color: var(--cinza);
+    font-weight: 500;
+}
+
+.sign{
+    display: flex;
+}
+
+.sign__texto{
+    margin: 1em .5em 1em 1em;
+}
+
+.navegacao__botao{
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.sign__botao{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.botao__extra{
+    color: var(--background);
+    background: var(--vermelhoEscuro);
+    padding: .5em 1em;
+    border-radius: 10px;
+}

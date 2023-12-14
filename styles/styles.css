@@ -1,0 +1,28 @@
+@import url('../styles/header.css');
+@import url('../styles/container.css');
+@import url('../styles/vagas.css');
+@import url('../styles/comentario.css');
+@import url('../styles/rodape.css');
+
+
+:root{
+    --background: #FFFFFF;
+    --vermelhoClaro: #c3191908;
+    --vermelhoEscuro: #8E2424;
+    --preto: #101828;
+    --fonte: 'inter';
+    --cinza: #667085;
+    --cinzaClaro: #EAECF0;
+    --cinzaAzulado: #F9FAFB;
+    --cinzaDireitos: #98A2B3;
+}
+
+body {
+    background: var(--background);
+    font-family: var(--fonte);
+    color: var(--preto);
+    font-weight: 400;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+}
